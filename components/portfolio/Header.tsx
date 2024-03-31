@@ -10,12 +10,14 @@ const sono = Sono({
 
 function Header() {
   return (
-    <nav className="fixed top-0 w-full py-6 font-bold backdrop-blur-2xl ">
+    <nav className="fixed top-0 z-10 w-full py-3 font-bold backdrop-blur-2xl md:py-6 lg:text-xl">
       <Container>
         <div className="mx-auto flex items-center justify-between space-x-3">
           <div className="flex items-center space-x-9">
             <Link href="/">
-              <h1 className={`${sono.className} text-3xl font-bold`}>
+              <h1
+                className={`${sono.className}  text-2xl font-bold  lg:text-3xl`}
+              >
                 sangye.dev
               </h1>
             </Link>
