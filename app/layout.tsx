@@ -1,17 +1,19 @@
-import '@/app/globals.css';
-export const metadata = {
-    title: 'sangye.dev',
-    description: 'React Developer',
+import "@/app/globals.css";
+import { Metadata } from "next";
+export const metadata: Metadata = {
+  title: "Sangye Tashi",
+  description: "Personal Website of React and Web Developer, Sangye Tashi",
+  
 };
 
 export default function RootLayout({
-    children,
+  children,
 }: {
-    children: React.ReactNode;
+  children: React.ReactNode;
 }) {
-    return (
-        <html lang="en">
-            <body>{children}</body>
-        </html>
-    );
+  return (
+    <html lang="en">
+      <body>{children}</body>
+    </html>
+  );
 }
