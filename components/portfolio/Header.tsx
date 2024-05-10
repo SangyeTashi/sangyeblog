@@ -16,7 +16,7 @@ function Header() {
           <div className="flex items-center space-x-9">
             <Link href="/">
               <h1
-                className={`${sono.className}  text-2xl font-bold  lg:text-3xl`}
+                className={`${sono.className}  text-2xl font-bold  text-gray-300 hover:text-gray-50 lg:text-3xl`}
               >
                 sangye.dev
               </h1>
