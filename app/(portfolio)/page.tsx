@@ -1,6 +1,5 @@
 import { getPosts } from "@/components/getPosts";
 import About from "@/components/portfolio/About";
-import Card from "@/components/portfolio/Card";
 import Contact from "@/components/portfolio/Contact";
 import Education from "@/components/portfolio/Education";
 import Experience from "@/components/portfolio/Experience";
@@ -13,29 +12,31 @@ export default function Home() {
   const posts = getPosts();
   return (
     <>
-      <Section className="bg-black">
-        <Hero />
-      </Section>
+      <div className="no-scrollbar mt-10 h-screen snap-y snap-proximity overflow-auto scroll-smooth ">
+        <Section className="snap-start">
+          <Hero />
+        </Section>
 
-      <Section className="bg-black">
-        <About />
-      </Section>
+        <Section className="snap-start">
+          <About />
+        </Section>
 
-      <Section className="bg-black">
-        <Skills />
-      </Section>
-      <Section className="bg-black">
-        <Projects />
-      </Section>
-      <Section className="bg-black">
-        <Education />
-      </Section>
-      <Section className="bg-black">
-        <Experience />
-      </Section>
-      <Section className="bg-black">
-        <Contact />
-      </Section>
+        <Section className="snap-start">
+          <Skills />
+        </Section>
+        <Section className="snap-start">
+          <Projects />
+        </Section>
+        <Section className="snap-start">
+          <Education />
+        </Section>
+        <Section className="snap-start">
+          <Experience />
+        </Section>
+        <Section className="snap-start">
+          <Contact />
+        </Section>
+      </div>
     </>
   );
 }
