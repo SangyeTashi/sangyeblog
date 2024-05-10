@@ -1,6 +1,7 @@
 import { getPosts } from "@/components/getPosts";
 import About from "@/components/portfolio/About";
 import Card from "@/components/portfolio/Card";
+import Contact from "@/components/portfolio/Contact";
 import Education from "@/components/portfolio/Education";
 import Experience from "@/components/portfolio/Experience";
 import Hero from "@/components/portfolio/Hero";
@@ -31,6 +32,9 @@ export default function Home() {
       </Section>
       <Section className="bg-black">
         <Experience />
+      </Section>
+      <Section className="bg-black">
+        <Contact />
       </Section>
     </>
   );

@@ -9,9 +9,9 @@ type ProjectsProps = {};
 
 const Projects: React.FC<ProjectsProps> = () => {
   return (
-    <div className="flex flex-col items-center space-y-10">
-      <h3 className="text-4xl font-bold">PROJECTS</h3>
-      <div className="grid gap-7 md:grid-cols-2 lg:grid-cols-3">
+    <div className="flex flex-col items-center space-y-20">
+      <h3 className="text-4xl font-bold">Projects</h3>
+      <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-3">
         <Card
           title="Unsplash Image Search "
           url={"https://my-project-builds.web.app/"}
