@@ -4,7 +4,7 @@ type ExperienceProps = {};
 
 const Experience: React.FC<ExperienceProps> = () => {
   return (
-    <div className="w-[700px]">
+    <div className="w-[460px] px-4 lg:w-[700px]">
       <h2 className="mb-8 text-center text-3xl font-bold">Work Experience</h2>
 
       <div>
