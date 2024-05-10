@@ -21,11 +21,11 @@ function Header() {
                 sangye.dev
               </h1>
             </Link>
-
+            {/* 
             <Link href="/posts">
               <p className="text-neutral-400 hover:text-gray-300">Blog</p>
-            </Link>
-            <Link href={"/public/resume.pdf"} download>
+            </Link> */}
+            <Link href={"/resume.pdf"} download>
               <p className="text-neutral-400 hover:text-gray-300">Résumé</p>
             </Link>
           </div>
