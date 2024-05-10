@@ -19,9 +19,9 @@ const About: React.FC<AboutProps> = () => {
           <div className="absolute -top-12 left-12 h-32 w-32 rounded-full bg-blue-500 opacity-75 blur-3xl"></div>
           <div className="absolute left-32 top-8 h-24 w-48 rounded-full bg-purple-500 opacity-75 blur-3xl"></div>
           <div className="absolute -bottom-12 -right-1 h-24 w-16 rounded-full bg-yellow-500 opacity-75 blur-3xl"></div>
-          <p className="max-w-2xl text-xl text-gray-400 xl:text-2xl ">
+          <p className="max-w-2xl  text-gray-400 xl:text-2xl ">
             I'm a motivated and dedicated computer science graduate aspiring to
-            become a front-end engineer. currently seeking job opportunities in
+            become a front-end engineer. currently seeking job opportunities in75
             web development with a focus on acquiring advanced skills in
             ReactJS, software development, and front-end technologies.
           </p>
@@ -32,7 +32,7 @@ const About: React.FC<AboutProps> = () => {
         src={Thinking}
         width={500}
         alt="an asian cartoon thinking"
-        className="scale-75 xl:scale-100"
+        className="xl:scale-100"
       />
     </div>
   );

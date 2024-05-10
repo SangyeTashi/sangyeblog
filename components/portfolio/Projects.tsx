@@ -10,7 +10,7 @@ type ProjectsProps = {};
 const Projects: React.FC<ProjectsProps> = () => {
   return (
     <div className="flex flex-col items-center space-y-20">
-      <h3 className="text-4xl font-bold">Projects</h3>
+      <h3 className="text-5xl font-bold">Projects</h3>
       <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-3">
         <Card
           title="Unsplash Image Search "

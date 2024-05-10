@@ -7,8 +7,8 @@ type ContactProps = {};
 
 const Contact: React.FC<ContactProps> = () => {
   return (
-    <div>
-      <h2 className="mb-5 text-center text-2xl font-bold">Contact Me</h2>
+    <div className="text-lg">
+      <h2 className="mb-5 text-center text-5xl font-bold">Contact Me</h2>
       <div className="flex flex-col space-y-2">
         <a href="mailto:sangyetashi2@gmail.com">
           <div className="email flex items-center space-x-4">

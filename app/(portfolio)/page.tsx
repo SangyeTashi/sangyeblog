@@ -12,8 +12,8 @@ export default function Home() {
   const posts = getPosts();
   return (
     <>
-      <div className="no-scrollbar mt-10 h-screen snap-y snap-proximity overflow-auto scroll-smooth ">
-        <Section className="snap-start">
+      <div className="no-scrollbar  h-screen  overflow-auto">
+        <Section className=" snap-start">
           <Hero />
         </Section>
 
