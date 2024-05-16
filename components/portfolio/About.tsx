@@ -1,5 +1,4 @@
 import React from "react";
-import Section from "./Section";
 import Thinking from "@/public/images/thinking.png";
 import Image from "next/image";
 import { Kanit } from "next/font/google";
@@ -9,7 +8,7 @@ type AboutProps = {};
 
 const About: React.FC<AboutProps> = () => {
   return (
-    <div className="flex flex-col items-center p-6 lg:flex-row">
+    <div className="flex flex-col items-center p-6 lg:flex-row-reverse">
       <div className="mb-6 flex grow flex-col text-center">
         <h3 className={`mb-4 text-5xl lg:text-center `}>
           <span className="text-4xl  text-gray-300">Hi, I'm </span>{" "}
@@ -21,8 +20,8 @@ const About: React.FC<AboutProps> = () => {
           <div className="absolute -bottom-12 -right-1 h-24 w-16 rounded-full bg-yellow-500 opacity-75 blur-3xl"></div>
           <p className="max-w-2xl  text-gray-400 xl:text-2xl ">
             I'm a motivated and dedicated computer science graduate aspiring to
-            become a front-end engineer. currently seeking job opportunities in75
-            web development with a focus on acquiring advanced skills in
+            become a front-end engineer. currently seeking job opportunities
+            in75 web development with a focus on acquiring advanced skills in
             ReactJS, software development, and front-end technologies.
           </p>
         </div>
