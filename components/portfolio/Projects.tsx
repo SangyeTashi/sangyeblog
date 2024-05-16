@@ -62,7 +62,7 @@ const Projects: React.FC<ProjectsProps> = () => {
         initial={"hidden"}
         whileInView={"visible"}
         viewport={{ once: true }}
-        className="grid grid-cols-2 gap-4 md:gap-12 lg:grid-cols-3"
+        className="grid gap-4 md:grid-cols-2 md:gap-12 lg:grid-cols-3"
       >
         <Card
           title="Unsplash Image Search "
