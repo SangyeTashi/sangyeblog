@@ -20,8 +20,8 @@ const About: React.FC<AboutProps> = () => {
           <div className="absolute -bottom-12 -right-1 h-24 w-16 rounded-full bg-yellow-500 opacity-75 blur-3xl"></div>
           <p className="max-w-2xl  text-gray-400 xl:text-2xl ">
             I'm a motivated and dedicated computer science graduate aspiring to
-            become a front-end engineer. currently seeking job opportunities
-            in75 web development with a focus on acquiring advanced skills in
+            become a front-end engineer. currently seeking job opportunities in
+            web development with a focus on acquiring advanced skills in
             ReactJS, software development, and front-end technologies.
           </p>
         </div>
