@@ -8,7 +8,7 @@ type SectionProps = {
 const Section: React.FC<SectionProps> = ({ children, className }) => {
   return (
     <section
-      className={` flex w-full items-center justify-center py-16 lg:px-24 ${className} min-h-screen`}
+      className={` flex w-full items-center justify-center py-24 lg:px-24 ${className}`}
     >
       {" "}
       {children}

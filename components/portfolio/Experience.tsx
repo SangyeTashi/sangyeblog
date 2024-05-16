@@ -4,14 +4,13 @@ type ExperienceProps = {};
 
 const Experience: React.FC<ExperienceProps> = () => {
   return (
-    <div className="relative w-[460px] px-4 text-lg lg:w-[700px]">
-      <div className="absolute -top-12 left-12 h-32 w-32 rounded-full bg-blue-500 opacity-75 blur-3xl"></div>
-      <div className="absolute left-32 top-8 h-24 w-48 rounded-full bg-purple-500 opacity-75 blur-3xl"></div>
-      <div className="absolute -bottom-12 -right-1 h-24 w-16 rounded-full bg-yellow-500 opacity-75 blur-3xl"></div>
+    <div className="relative w-[550px] text-lg  lg:w-[800px]">
+      <div className="absolute -bottom-12 left-12 h-32 w-32 rounded-full bg-blue-500 opacity-75 blur-3xl"></div>
+      <div className="absolute bottom-8 left-32 h-24 w-48 rounded-full bg-purple-500 opacity-75 blur-3xl"></div>
 
-      <h2 className="mb-8 text-center text-5xl font-bold">Work Experience</h2>
+      <h2 className="mb-8 text-center text-4xl font-bold">Work Experience</h2>
 
-      <div>
+      <div className="rounded-md px-14 py-16  outline  outline-1  outline-gray-600 md:px-20 ">
         <div className="flex items-end justify-between">
           <div>
             <h3>Part-time Data Annotator</h3>

@@ -9,7 +9,7 @@ type SkillsProps = {};
 const Skills: React.FC<SkillsProps> = () => {
   return (
     <div className="flex max-w-3xl flex-col items-center">
-      <h2 className="mb-10 text-5xl font-bold ">Skills</h2>
+      <h2 className="mb-10 text-4xl font-bold ">Skills</h2>
       <div className="flex flex-wrap justify-center gap-2 px-2 md:text-xl">
         <Pill className="">
           <FaHtml5 />

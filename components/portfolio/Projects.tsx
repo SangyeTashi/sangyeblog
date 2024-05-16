@@ -18,11 +18,17 @@ const cardVariant: Variants = {
 };
 const projectTitleVariant: Variants = {
   visible: {
-    y: 0,
+    x: 0,
     opacity: 1,
-    transition: { duration: 0.8, type: "spring", stiffness: 300, damping: 24 },
+    transition: {
+      duration: 0.8,
+      type: "spring",
+      stiffness: 300,
+      damping: 24,
+      delay: 0.1,
+    },
   },
-  hidden: { y: 50, opacity: 0 },
+  hidden: { x: -50, opacity: 0 },
 };
 
 const Projects: React.FC<ProjectsProps> = () => {
@@ -31,8 +37,9 @@ const Projects: React.FC<ProjectsProps> = () => {
       <motion.h3
         variants={projectTitleVariant}
         initial={"hidden"}
+        viewport={{ once: true }}
         whileInView={"visible"}
-        className="text-5xl font-bold"
+        className="text-4xl font-bold"
       >
         Projects
       </motion.h3>
@@ -54,6 +61,7 @@ const Projects: React.FC<ProjectsProps> = () => {
         }}
         initial={"hidden"}
         whileInView={"visible"}
+        viewport={{ once: true }}
         className="grid gap-12 md:grid-cols-2 lg:grid-cols-3"
       >
         <Card

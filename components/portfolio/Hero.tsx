@@ -1,8 +1,11 @@
+"use client";
+
 import React from "react";
 import Container from "./Container";
 import Image from "next/image";
 import HeroImage from "@/public/images/coding.png";
 import { Kanit } from "next/font/google";
+import { ReactTyped } from "react-typed";
 
 const kanit = Kanit({ subsets: ["latin"], weight: "800" });
 type HeroProps = {};
@@ -21,8 +24,18 @@ const Hero: React.FC<HeroProps> = () => {
         >
           Sangye Tashi
         </h2>
+
         <h3 className="pt-2 text-xl text-neutral-400 lg:text-4xl">
-          Passionate React / Web Developer{" "}
+          Passionate{" "}
+          <ReactTyped
+            strings={["React Developer", "Web Developer"]}
+            typeSpeed={100}
+            loop
+            backSpeed={30}
+            cursorChar="|"
+            showCursor={true}
+            backDelay={2000}
+          />
         </h3>
       </div>
       <Image
